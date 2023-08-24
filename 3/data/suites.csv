@@ -1,0 +1,7 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Thu Aug 24 17:31:23 GMT 2023","Thu Aug 24 17:31:23 GMT 2023","286","chromium","","","","","Validar o endpoint GET /characters/staff",""
+"passed","Thu Aug 24 17:31:22 GMT 2023","Thu Aug 24 17:31:23 GMT 2023","438","chromium","","","","","Validar o endpoint GET /characters/house/{house}",""
+"passed","Thu Aug 24 17:31:25 GMT 2023","Thu Aug 24 17:31:25 GMT 2023","243","chromium","","","","","Validar o endpoint GET /spells",""
+"passed","Thu Aug 24 17:31:24 GMT 2023","Thu Aug 24 17:31:24 GMT 2023","852","chromium","","","","","Validar o endpoint GET /characters/students",""
+"passed","Thu Aug 24 17:31:23 GMT 2023","Thu Aug 24 17:31:23 GMT 2023","281","chromium","","","","","Validar o endpoint GET /characters/{id}",""
+"passed","Thu Aug 24 17:31:24 GMT 2023","Thu Aug 24 17:31:25 GMT 2023","261","chromium","","","","","Validar o endpoint GET /characters",""

@@ -1,23 +1,22 @@
-import { defineConfig, devices } from '@playwright/test';
-
+import { defineConfig, devices } from "@playwright/test";
 
 export default defineConfig({
-  testDir: './tests',
+  testDir: "./tests",
   fullyParallel: true,
   forbidOnly: !!process.env.CI,
   retries: process.env.CI ? 2 : 0,
   workers: process.env.CI ? 1 : undefined,
-  reporter: 'allure-playwright',
+  reporter: "allure-playwright",
   use: {
-    baseURL: 'https://hp-api.onrender.com/api',
+    baseURL: "https://hp-api.onrender.com/api",
 
-    trace: 'on-first-retry',
+    trace: "on-first-retry",
   },
 
   projects: [
     {
-      name: 'chromium',
-      use: { ...devices['Desktop Chrome'] },
-    }
+      name: "chromium",
+      use: { ...devices["Desktop Chrome"] },
+    },
   ],
 });
